@@ -93,7 +93,7 @@ performance and year-round comfort.
       {visible && currentSlide && (
       <div id = "myPopup" className="popupContainer">
         <div className='topControls'> 
-        Roosevelt Island Towers
+        Michigan Environmental Residential Study
         <img className='exit' onClick={() => popupClose()} src = {exit}></img>
         </div>
         <div className="popup">
@@ -127,7 +127,7 @@ performance and year-round comfort.
         className='leftArrow'
         src={arrow}
       />
-      East King
+      Michigan
       <img
         onClick={goToSectionRight}
         className='rightArrow'

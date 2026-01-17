@@ -94,7 +94,9 @@ play, and care for their cardiovascular health.
       {visible && currentSlide && (
       <div id = "myPopup" className="popupContainer">
         <div className='topControls'> 
-        Roosevelt Island Towers
+        Loch Haven Park Educational
+Pavilion & Cardiovascular
+Wellness Complex
         <img className='exit' onClick={() => popupClose()} src = {exit}></img>
         </div>
         <div className="popup">
@@ -128,7 +130,7 @@ play, and care for their cardiovascular health.
         className='leftArrow'
         src={arrow}
       />
-      East King
+      Loch Haven
       <img
         onClick={goToSectionRight}
         className='rightArrow'

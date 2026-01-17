@@ -85,7 +85,7 @@ function Project3({ portfolioPages}) {
       {visible && currentSlide && (
       <div id = "myPopup" className="popupContainer">
         <div className='topControls'> 
-        Roosevelt Island Towers
+        Form Studies
         <img className='exit' onClick={() => popupClose()} src = {exit}></img>
         </div>
         <div className="popup">
@@ -119,7 +119,7 @@ function Project3({ portfolioPages}) {
         className='leftArrow'
         src={arrow}
       />
-      East King
+      Form Studies
       <img
         onClick={goToSectionRight}
         className='rightArrow'

@@ -87,7 +87,7 @@ interior logic and data-driven organization
       {visible && currentSlide && (
       <div id = "myPopup" className="popupContainer">
         <div className='topControls'> 
-        Roosevelt Island Towers
+        Systematic Tower
         <img className='exit' onClick={() => popupClose()} src = {exit}></img>
         </div>
         <div className="popup">
@@ -121,7 +121,7 @@ interior logic and data-driven organization
         className='leftArrow'
         src={arrow}
       />
-      East King
+      Systemic
       <img
         onClick={goToSectionRight}
         className='rightArrow'

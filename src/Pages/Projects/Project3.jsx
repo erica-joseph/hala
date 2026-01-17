@@ -119,7 +119,7 @@ to the past and future of the land.
         className='leftArrow'
         src={arrow}
       />
-      East King
+      Alaska
       <img
         onClick={goToSectionRight}
         className='rightArrow'

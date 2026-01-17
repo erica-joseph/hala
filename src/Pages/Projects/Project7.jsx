@@ -83,7 +83,7 @@ using said forms to invite visitors to explore a passage that blends the interio
       {visible && currentSlide && (
       <div id = "myPopup" className="popupContainer">
         <div className='topControls'> 
-        Roosevelt Island Towers
+        Bok Tower Gardens Pavilion
         <img className='exit' onClick={() => popupClose()} src = {exit}></img>
         </div>
         <div className="popup">
@@ -117,7 +117,7 @@ using said forms to invite visitors to explore a passage that blends the interio
         className='leftArrow'
         src={arrow}
       />
-      East King
+      Bok Tower
       <img
         onClick={goToSectionRight}
         className='rightArrow'
