@@ -4,13 +4,12 @@ import arrow from '../../assets/images/Right_Arrow.svg'
 import exit from '../../assets/images/Exit.svg'
 import download from '../../assets/images/Download.svg'
 
-import Form_001 from '../../assets/images/Form/Form_001.png'
-import Form_002 from '../../assets/images/Form/Form_002.png'
-import Form_003 from '../../assets/images/Form/Form_003.png'
-import Form_004 from '../../assets/images/Form/Form_004.png'
-import Form_005 from '../../assets/images/Form/Form_005.png'
-import Form_006 from '../../assets/images/Form/Form_006.png'
-import Form_007 from '../../assets/images/Form/Form_007.png'
+import Form_002 from '/Form/Form_002.png'
+import Form_003 from '/Form/Form_003.png'
+import Form_004 from '/Form/Form_004.png'
+import Form_005 from '/Form/Form_005.png'
+import Form_006 from '/Form/Form_006.png'
+import Form_007 from '/Form/Form_007.png'
 
 function Project3({ portfolioPages}) {
   

@@ -4,17 +4,9 @@ import arrow from '../../assets/images/Right_Arrow.svg'
 import exit from '../../assets/images/Exit.svg'
 import download from '../../assets/images/Download.svg'
 
-
-import Roosevelt_001 from '../../assets/images/Roosevelt/Roosevelt_001.png'
-import Roosevelt_002 from '../../assets/images/Roosevelt/Roosevelt_002.png'
-import Roosevelt_003 from '../../assets/images/Roosevelt/Roosevelt_003.png'
-import Roosevelt_004 from '../../assets/images/Roosevelt/Roosevelt_004.png'
-import Roosevelt_005 from '../../assets/images/Roosevelt/Roosevelt_005.png'
-import Roosevelt_006 from '../../assets/images/Roosevelt/Roosevelt_006.png'
-import Roosevelt_007 from '../../assets/images/Roosevelt/Roosevelt_007.png'
-import Roosevelt_008 from '../../assets/images/Roosevelt/Roosevelt_008.png'
-import Roosevelt_009 from '../../assets/images/Roosevelt/Roosevelt_009.png'
-import Roosevelt_010 from '../../assets/images/Roosevelt/Roosevelt_010.png'
+import Roosevelt_002 from '/Roosevelt/Roosevelt_002.png'
+import Roosevelt_003 from '/Roosevelt/Roosevelt_003.png'
+import Roosevelt_004 from '/Roosevelt/Roosevelt_004.png'
 
 function Project1() {
   

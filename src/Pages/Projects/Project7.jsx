@@ -4,12 +4,11 @@ import arrow from '../../assets/images/Right_Arrow.svg'
 import exit from '../../assets/images/Exit.svg'
 import download from '../../assets/images/Download.svg'
 
-import BokTower_001 from '../../assets/images/BokTower/BokTower_001.png'
-import BokTower_002 from '../../assets/images/BokTower/BokTower_002.png'
-import BokTower_003 from '../../assets/images/BokTower/BokTower_003.png'
-import BokTower_004 from '../../assets/images/BokTower/BokTower_004.png'
-import BokTower_005 from '../../assets/images/BokTower/BokTower_005.png'
-import BokTower_006 from '../../assets/images/BokTower/BokTower_006.png'
+import BokTower_001 from '/BokTower/BokTower_001.png'
+import BokTower_002 from '/BokTower/BokTower_002.png'
+import BokTower_003 from '/BokTower/BokTower_003.png'
+import BokTower_004 from '/BokTower/BokTower_004.png'
+import BokTower_006 from '/BokTower/BokTower_006.png'
 
 function Project3({ portfolioPages}) {
   

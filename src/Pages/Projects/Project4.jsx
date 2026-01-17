@@ -4,14 +4,8 @@ import arrow from '../../assets/images/Right_Arrow.svg'
 import exit from '../../assets/images/Exit.svg'
 import download from '../../assets/images/Download.svg'
 
-import Tower_001 from '../../assets/images/Tower/Tower_001.png'
-import Tower_002 from '../../assets/images/Tower/Tower_002.png'
-import Tower_003 from '../../assets/images/Tower/Tower_003.png'
-import Tower_004 from '../../assets/images/Tower/Tower_004.png'
-import Tower_005 from '../../assets/images/Tower/Tower_005.png'
-import Tower_006 from '../../assets/images/Tower/Tower_006.png'
-import Tower_007 from '../../assets/images/Tower/Tower_007.png'
-import Tower_008 from '../../assets/images/Tower/Tower_008.png'
+import Tower_001 from '/Tower/Tower_001.png'
+import Tower_002 from '/Tower/Tower_002.png'
 
 function Project4({ portfolioPages}) {
   
