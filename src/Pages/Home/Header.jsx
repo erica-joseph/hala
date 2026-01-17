@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
 
-import retGradient from '../../assets/images/RetGradient.svg'
 
 function Header() {
   
@@ -8,7 +7,7 @@ function Header() {
     <>
     <div className='headerContainer'>
       <div className='doorContainer'>
-        <div className='doorContent'  style = {{backgroundImage: `url(${retGradient})`}}>
+        <div className='doorContent'  style = {{backgroundImage: `url()`}}>
           <div className='doorFirstName'>
             ha
             <br></br>

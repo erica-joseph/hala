@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import '../App.css'
 
-import portfolio from '../assets/documents/Portfolio.pdf'
+import portfolio from '/documents/Portfolio.pdf'
 
 function Portfolio() {
   
