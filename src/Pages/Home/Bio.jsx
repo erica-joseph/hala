@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react'
 
 import bioArrow from '../../assets/images/ArrowIntro.svg'
+import { Link } from "react-router-dom";
+
 function Bio() {
   
   return (
@@ -14,7 +16,7 @@ function Bio() {
       <div className='bioContent'>
         Architectural Design
       </div>
-
+      <Link to="/portfolio">
       <button className='bioButton'>
         <div className='bioText'>
           <div className="bioTextContent"> Explore my Portfolio</div>
@@ -24,6 +26,7 @@ function Bio() {
 
         </div>
       </button>
+      </Link>
     </div>
     </div>
     </>
