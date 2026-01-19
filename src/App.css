@@ -443,6 +443,12 @@ height: 100%;
   border: 0;
   font-size: 1.5vw;
 }
+
+.buttonDownload{
+  background-color: transparent;
+  border: 0;
+  font-size: 2vw;
+}
 }
 
 @media (orientation: portrait) {
@@ -454,6 +460,12 @@ height: 100%;
   background-color: transparent;
   border: 0;
   font-size: 2vw;
+}
+
+.buttonDownload{
+  background-color: transparent;
+  border: 0;
+  font-size: 5vw;
 }
 }
 

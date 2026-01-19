@@ -53,8 +53,8 @@ function Projects() {
 
       </div>
     <div className='portfolioLink'>
-      <Link to= "/portfolio/Download">
-        <i>download</i>
+      <Link to= "/portfolio/view">
+        <i>view</i>
       </Link>
     </div>
 </div>

@@ -4,10 +4,27 @@ import '../App.css'
 import resume from '/documents/resume.pdf'
 
 function Resume() {
+
+  const isSafari =
+  /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
   
   return (
     <>
-    <object className = 'resume' data={resume} type="application/pdf"></object>
+
+    
+
+    {!isSafari ? (
+  <object className = 'resume' data={resume} type="application/pdf"></object>
+) : (
+  <div className="pdfFallback">
+    <p>Preview not supported in Safari.</p>
+    <a href = {resume} target = "_blank">
+    <center><button className='buttonDownload'> Open in new tab</button></center>
+    </a>
+  </div>
+)}
+
     </>
   )
 }

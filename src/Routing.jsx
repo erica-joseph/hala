@@ -36,7 +36,7 @@ const Routing = () => {
         <Route path="/portfolio/FormStudies" element={<Form />} />
         <Route path="/portfolio/More" element={<Portfolio />} />
 
-        <Route path="/portfolio/Download" element={<PortfolioDownload />} />
+        <Route path="/portfolio/view" element={<PortfolioDownload />} />
       </Routes>
 
   );
