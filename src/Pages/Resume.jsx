@@ -11,14 +11,11 @@ function Resume() {
   
   return (
     <>
-
-    
-
     {!isSafari ? (
   <object className = 'resume' data={resume} type="application/pdf"></object>
 ) : (
   <div className="pdfFallback">
-    <p>Preview not supported in Safari.</p>
+    <center><p>Preview not supported in Safari.</p></center>
     <a href = {resume} target = "_blank">
     <center><button className='buttonDownload'> Open in new tab</button></center>
     </a>
