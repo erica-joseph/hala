@@ -109,8 +109,8 @@ interior logic and data-driven organization
                     setCurrentSlide(pages);
                     setVisible(true);
                   }} id = {pages.id} className="pageGallery" key={index}>
-                  <a className ="linkGallery" href = {pages.img}>
-                  <img className ="thumbnailGallery" src = {pages.img} />
+                  <a className ="linkGallery" href = {pages.img} target = "_blank">
+                  <img className ="thumbnailGallery" src = {pages.img} title="Click for full image" />
                     </a>    
                 </div>
               ))}

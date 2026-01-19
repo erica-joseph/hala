@@ -34,7 +34,6 @@ a {
 }
 
 a:hover{
-  animation: pulse;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   border: 0;  
@@ -305,9 +304,11 @@ font-size: 3vw;
     padding: 0 0 1vw 0;
     align-content: center;
     justify-content: center;
+        flex-wrap: wrap;
 }
 
 .aboutContent{
+  text-align: justify;
   text-indent: 1.5vw;
   padding: 3vw 0 3vw 0;
 }
@@ -318,6 +319,7 @@ zoom:200%;
 }
 
 .aboutContent{
+  text-align: center;
 zoom:200%;
 }  
 }
